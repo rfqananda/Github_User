@@ -1,0 +1,44 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.GithubUserV2" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBarOverlay">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/text_dark</item>
+
+        <!-- Customize your theme here. -->
+        <item name="color">@color/white_transparent</item>
+        <item name="background">@color/bg_dark</item>
+        <item name="backgroundColor">@color/card_dark</item>
+        <item name="textBackground">@color/text_dark</item>
+        <item name="buttonTint">@color/button_dark</item>
+        <item name="iconTint">@color/icon_dark</item>
+        <item name="colorOnBackground">@color/search_dark</item>
+
+        <item name="colorAccent">@color/dark1</item>
+        <item name="colorSurface">@color/dark2</item>
+        <item name="colorOnSurface">@color/dark3</item>
+
+        <item name="haloColor">@color/card_dark</item>
+
+        <item name="tabIndicator">@color/dark2</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+
+    </style>
+
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+</resources>

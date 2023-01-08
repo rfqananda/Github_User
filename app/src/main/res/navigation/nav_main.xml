@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/item_home">
+
+    <fragment
+        android:id="@+id/item_home"
+        android:name="com.rifqiananda.githubuserv2.ui.main.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/item_fav"
+        android:name="com.rifqiananda.githubuserv2.ui.favorite.FavoriteFragment"
+        android:label="@string/fav"
+        tools:layout="@layout/fragment_favorite" />
+
+    <fragment
+        android:id="@+id/item_theme"
+        android:name="com.rifqiananda.githubuserv2.ui.themes.ThemeFragment"
+        android:label="@string/theme"
+        tools:layout="@layout/fragment_theme" />
+
+</navigation>

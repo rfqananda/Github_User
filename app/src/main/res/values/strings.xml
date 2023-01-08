@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Aplikasi User Github</string>
+    <string name="search">Search...</string>
+    <string name="tab_1">Followers</string>
+    <string name="tab_2">Following</string>
+    <string name="loading">Loading</string>
+    <string name="home">Home</string>
+    <string name="fav">Favorite</string>
+    <string name="theme">Theme</string>
+    <string name="dark_mode">Dark Mode</string>
+</resources>
